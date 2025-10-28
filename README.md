@@ -10,6 +10,14 @@ The application uses a sophisticated process to colorize images while preserving
 - **CNN Model:** A pre-trained Convolutional Neural Network (CNN), inspired by the architecture from the "Colorful Image Colorization" paper by Zhang et al., predicts the 'a' and 'b' color channels. The model runs on a down-scaled version of the image (128x128) for efficiency.
 - **High-Clarity Reconstruction:** To ensure the final image is clear, the model's color output is up-scaled to the original image's resolution and combined with the original, high-resolution Luminance ('L') channel. This process ensures that the original image's sharpness and detail are preserved.
 
+## Key Features
+
+- **Drag-and-Drop Interface:** Effortlessly upload grayscale images through a sleek Gradio UI.  
+- **Real-Time Processing:** Generates colorized results in seconds with optimized TensorFlow pipelines.  
+- **Resolution-Aware Scaling:** Maintains clarity for both low-resolution and high-resolution inputs.  
+- **Pre-Trained Model:** Utilizes a robust model trained on thousands of natural images for realistic color mapping.  
+- **Modular Architecture:** Easily replace or retrain models for custom datasets or specialized domains (e.g., portraits, landscapes).  
+
 ## Tech Stack
 
 - **Language:** Python 3.9+
