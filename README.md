@@ -12,7 +12,7 @@ The application uses a sophisticated process to colorize images while preserving
 
 ## Tech Stack
 
-- **Language:** Python 3.9+
+- **Language:** Python 3.9 or Pyhton 3.9+
 - **Frameworks:** TensorFlow (Keras), Gradio
 - **Libraries:** NumPy, Scikit-image
 
